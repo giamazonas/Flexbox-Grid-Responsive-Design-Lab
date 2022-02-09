@@ -65,7 +65,7 @@ img {
 
 #contact {
   display: flex;
-  border: 10px red;
+
   width: 100%;
   
 }
@@ -101,6 +101,7 @@ img {
     height: 100%;
     padding: 20px;
     background-color: rgb(233, 230, 230);
+    font-size: 2.5rem;
   }
 
   #status {
@@ -110,34 +111,45 @@ img {
     width: 100%;
     text-align: left;
   }
+
   #name{
     grid-area: name;
     background-color: rgb(233, 230, 230);
     text-align: center;
-  }
-  #img {
-    grid-area: img;
-    margin: 0 auto;
-    /* centers item within parent */
 
   }
+  img {
+    grid-area: img;
+    place-self: center;
+    align-content: stretch;
+    max-width: 100%;
+    height: auto;
+  }
+
   #occupation {
     grid-area: occupation;
+    display: flex;
+    flex-flow: column;
+    justify-items: start;
+    /* order:  */
   }
+
   #brand {
     grid-area: brand;
     display: flex;
+    background-color: rgb(233, 230, 230);
     border-left: 2px solid green;
     padding: 25px;
     margin: 10px;
-    
 
   }
+
   #contact {
     grid-area: contact;
     display: flex;
     padding: 10px;
   }
+
   #offer {
     grid-area: offer;
     background-color: rgb(233, 230, 230);
