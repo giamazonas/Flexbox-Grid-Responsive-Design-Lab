@@ -47,6 +47,8 @@ main {
 img {
   border-radius: 50%;
   border: 1px solid green;
+  max-width: 100%;
+  height: auto;
 } 
 
 #name {
@@ -141,6 +143,7 @@ img {
     border-left: 2px solid green;
     padding: 25px;
     margin: 10px;
+    font: 1.5rem;
 
   }
 
