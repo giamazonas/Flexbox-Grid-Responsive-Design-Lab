@@ -30,7 +30,7 @@ body {
 
 main {
   /* max-width: 300px;  */
-  border: 10px red;
+  /* border: 10px red; */
   background-color: whitesmoke;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ main {
 img {
   border-radius: 50%;
   border: 1px solid green;
-  max-width: 100%;
+  max-width: 25%;
   height: auto;
 } 
 
@@ -109,8 +109,7 @@ img {
   #status {
     grid-area: status;
     margin-left: auto;
-    border: 1px solidred;
-    width: 100%;
+    /* border: 1px solidred; */
     text-align: left;
   }
 
@@ -124,15 +123,13 @@ img {
     grid-area: img;
     place-self: center;
     align-content: stretch;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
   }
 
   #occupation {
     grid-area: occupation;
-    display: flex;
     flex-flow: column;
-    justify-items: start;
     /* order:  */
   }
 
@@ -141,16 +138,12 @@ img {
     display: flex;
     background-color: rgb(233, 230, 230);
     border-left: 2px solid green;
-    padding: 25px;
-    margin: 10px;
-    font: 1.5rem;
+    padding: 0 25px 0 10px;
 
   }
 
   #contact {
     grid-area: contact;
-    display: flex;
-    padding: 10px;
   }
 
   #offer {
